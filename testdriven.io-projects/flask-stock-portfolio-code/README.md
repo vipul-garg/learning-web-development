@@ -8,4 +8,4 @@ Since am developing on a remote linux server and am trying to access the localho
 The need is to map the port 5000. We use socat.
 
 socat tcp-listen:81,reuseaddr,fork tcp:localhost:5000 &
-http://<server IP>:81/
+http://server-ip:81/
